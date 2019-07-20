@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #FAFAFA;
+  font-family: 'Lato', sans-serif !important; }
+  body nav .container .collapse ul li a {
+    font-size: 11px;
+    color: #000; }
+  body .welcome .container {
+    text-align: center; }
+    body .welcome .container .welcome_header {
+      margin-top: 100px;
+      text-align: center;
+      color: #656565; }
+      body .welcome .container .welcome_header h1 {
+        color: #656565;
+        font-size: 50px;
+        font-weight: 900; }
+    body .welcome .container .welcome_content {
+      display: inline-block;
+      margin-top: 50px;
+      background: #fff; }
+      body .welcome .container .welcome_content li {
+        margin: 40px; }
+        body .welcome .container .welcome_content li a i {
+          font-size: 40px;
+          color: #999999; }
+        body .welcome .container .welcome_content li a h4 {
+          margin-top: 0;
+          font-weight: bold;
+          font-size: 30px;
+          color: #999999; }
+        body .welcome .container .welcome_content li a p {
+          margin-top: -20px;
+          color: #999999; }
+      body .welcome .container .welcome_content .welcome_ul li .uk-card-default .uk-card-body {
+        text-align: left; }
+        body .welcome .container .welcome_content .welcome_ul li .uk-card-default .uk-card-body .uk-card-title {
+          margin-top: 70px;
+          font-weight: bold;
+          font-size: 40px; }
+        body .welcome .container .welcome_content .welcome_ul li .uk-card-default .uk-card-body p b {
+          margin-right: 20px; }
+          body .welcome .container .welcome_content .welcome_ul li .uk-card-default .uk-card-body p b i {
+            color: #F96868;
+            font-weight: bold;
+            font-size: 25px;
+            margin-right: 20px; }
+        body .welcome .container .welcome_content .welcome_ul li .uk-card-default .uk-card-body button {
+          background-color: #F96868; }
+  body .course_search {
+    position: relative;
+    background-image: url(../images/1.jpg);
+    width: 100%; }
+    body .course_search .overlay {
+      background: #000;
+      position: absolute;
+      opacity: 0.8;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    body .course_search .container .header h2 {
+      color: #fff;
+      font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
