@@ -55,6 +55,7 @@ body {
   body .course_search {
     position: relative;
     background-image: url(../images/1.jpg);
+    background-size: cover;
     width: 100%; }
     body .course_search .overlay {
       background: #000;
@@ -64,8 +65,106 @@ body {
       left: 0;
       width: 100%;
       height: 100%; }
-    body .course_search .container .header h2 {
-      color: #fff;
+    body .course_search .container {
+      position: relative;
+      text-align: center; }
+      body .course_search .container .header h2 {
+        color: #fff;
+        font-weight: bold; }
+      body .course_search .container .header p {
+        margin-top: 0px;
+        color: #656565;
+        font-size: 20px; }
+      body .course_search .container .middle {
+        text-align: center; }
+        body .course_search .container .middle .uk-flex .item {
+          text-align: center;
+          margin: 0 auto; }
+          body .course_search .container .middle .uk-flex .item .uk-margin button {
+            background: #fff;
+            border: none;
+            border-radius: 5px; }
+          body .course_search .container .middle .uk-flex .item .uk-margin input {
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            height: 37px;
+            padding-left: 10px; }
+      body .course_search .container a {
+        display: inline-block;
+        background: #F96868;
+        color: #fff;
+        padding: 12px 50px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border-radius: 5px; }
+        body .course_search .container a:hover {
+          text-decoration: none; }
+  body .recent_courses {
+    margin: 100px 0; }
+    body .recent_courses .container .recent_header {
+      text-align: center; }
+      body .recent_courses .container .recent_header h2 {
+        color: #676767;
+        font-weight: bold;
+        font-size: 50px; }
+      body .recent_courses .container .recent_header p {
+        color: #656565; }
+    body .recent_courses .container .recent_middle .uk-light .uk-grid li .uk-panel .uk-card-default .uk-card-body h3 {
+      font-size: 30px;
       font-weight: bold; }
+    body .recent_courses .container .recent_middle .uk-light .uk-grid li .uk-panel .uk-card-default .uk-card-body span a {
+      background-color: #F96868;
+      padding: 10px 20px;
+      border-radius: 5px; }
+      body .recent_courses .container .recent_middle .uk-light .uk-grid li .uk-panel .uk-card-default .uk-card-body span a:hover {
+        text-decoration: none; }
+    body .recent_courses .container .recent_middle .uk-light .uk-grid li .uk-panel .uk-card-default .uk-card-body span i {
+      color: #F96868;
+      margin-left: 30%; }
+  body .student {
+    margin-top: 150px; }
+    body .student .container {
+      text-align: center; }
+      body .student .container h1 {
+        font-weight: bold;
+        color: #656565; }
+      body .student .container .uk-light {
+        height: 50vh; }
+        body .student .container .uk-light .uk-slideshow-items li h2 {
+          color: #676767;
+          font-size: 20px; }
+        body .student .container .uk-light .uk-slideshow-items li h3 {
+          color: #676767;
+          font-weight: bold;
+          margin: 0;
+          margin-top: 10px; }
+        body .student .container .uk-light .uk-slideshow-items li p {
+          color: #656565; }
+  body .introduct .uk-accordion-title {
+    background-color: #676767;
+    padding: 10px 0;
+    color: #fff;
+    width: 100%; }
+  body .introduct .container h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 35px; }
+  body .introduct .container .uk-open .uk-accordion-title {
+    background-color: #F96868;
+    padding: 10px;
+    color: #fff; }
+  body .introduct .container .uk-open .uk-accordion-content .card {
+    border: none; }
+    body .introduct .container .uk-open .uk-accordion-content .card .col-md-4 img {
+      border-radius: 50px; }
+    body .introduct .container .uk-open .uk-accordion-content .card .col-md-8 .card-body h5 {
+      font-weight: bold;
+      margin: 0; }
+    body .introduct .container .uk-open .uk-accordion-content .card .col-md-8 .card-body h6 {
+      margin: 0;
+      font-size: 13px; }
+    body .introduct .container .uk-open .uk-accordion-content .card .col-md-8 .card-body p {
+      text-align: left; }
 
 /*# sourceMappingURL=style.css.map */
